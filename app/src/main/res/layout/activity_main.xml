@@ -27,7 +27,7 @@
         android:clickable="true"
         android:contentDescription="New Task"
         android:padding="5dp"
-        android:src="@android:drawable/ic_input_add" />
+        android:src="@drawable/baseline_add_24" />
 
 
 </RelativeLayout>
