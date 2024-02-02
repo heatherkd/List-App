@@ -43,7 +43,7 @@ class TaskAdapter (private var task: List<Task>, context: Context) : RecyclerVie
         holder.deleteButton.setOnClickListener{
             db.deleteTask(task.id)
             refreshData(db.getAllTasks())
-            Toast.makeText(holder.itemView.context, "Note Deleted", Toast.LENGTH_SHORT).show()
+            Toast.makeText(holder.itemView.context, "Task Deleted", Toast.LENGTH_SHORT).show()
         }
     }
 
